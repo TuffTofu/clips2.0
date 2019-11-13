@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	background: none;
+	background-size: cover;
+	height: 100vh;
+	background: #fff;
+}
+.overlay {
+	height: 50%;
+	width: 100%;
+	background: none;
+	position: absolute;
+}
+.video {
+	antialias: 1;
+	width: 100%;
+	height: 100%;
+}
+.overlay, .icon, .video_links {
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.tufftofu_graphic {
+	/* antialias:1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 6em; */
+	display: none;
+}
+.icon {
+	antialias:1;
+	position: absolute;
+	top: 10%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	height: 5%;
+	background: none;
+	border-radius: 1em;
+	overflow: hidden;
+}
+.home {
+	antialias:1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	background: none;
+}
+.bannericon {
+	display: none;
+	/* position: absolute;
+	top: 50%;
+	Left: 50%;
+	transform: translate(-50%, -50%);
+	width: 10%; */
+}
+.video_links {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 1em;
+	position: absolute;
+	top: 50%;
+	width: 90%;
+	min-height: 100%;
+	transform: translate(5%, 0%);
+	padding-bottom: 5%;
+}
+.link_text1, .link_text2, .link_text3, .link_text4, .link_text5, .link_text6 {
+	letter-spacing: 0.2em;
+	text-decoration: none;
+	font-family: Bungee, sans-serif;
+	font-size: 2em;
+	color: #fff;
+	antialias: 1;
+	position: relative;
+	height: auto;
+	width: auto;
+	background: none;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+.link1, .link2, .link3, .link4, .link5, .link6 {
+	text-decoration: none;
+}
+.wrap1 {
+	grid-column: 1/4;
+	grid-row: 1/4;
+}
+.wrap2 {
+	grid-column: 4;
+	grid-row: 1/4;
+}
+.wrap3 {
+	grid-column: 1/3;
+	grid-row: 5/9;
+}
+.wrap4 {
+	grid-column: 3/5;
+	grid-row: 4/8;
+}
+.wrap5 {
+	grid-column: 2/5;
+	grid-row: 9/13;
+}
+.wrap6 {
+	grid-column: 1/5;
+	grid-row: 13/16;
+}
+.thumbnail1 {
+	background: url("../OW1/images/thumbnail.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.thumbnail2 {
+	background: url("../OW2/images/thumbnail.png");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.thumbnail3 {
+	background: url("../OW3/images/thumbnail.png");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.thumbnail4 {
+	background: url("../OW4/images/thumbnail.png");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.thumbnail5 {
+	background: url("../OW5/images/thumbnail.png");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.thumbnail6 {
+	background: #000;
+	height: 100%;
+	width: 100%;
+}

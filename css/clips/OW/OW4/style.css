@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+*{
+  padding: 0;
+  margin: 0;
+  background: #ff7f27;
+}
+.background{
+  font-family: Bungee, sans-serif;
+}
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.video1{
+  width: 100%;
+  max-width: 768px;
+}
+.icon {
+	antialias:1;
+	position: absolute;
+	top: 10%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	height: 10%;
+	background: none;
+	border-radius: 1em;
+	overflow: hidden;
+	box-shadow: 0em 0em 1em 0.025em #000;
+}
+.home {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	background: none;
+}
